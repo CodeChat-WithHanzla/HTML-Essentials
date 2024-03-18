@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms One</title>
+    <style>
+        body {
+         background-color: #414141;
+         color:#fff;
+        }
+        </style>
+</head>
+<body>
+   <form action="" method="GET" autocomplete="on" >
+    <label for="fname">Enter Name </label>
+    <input type="text" placeholder="Enter Name" value="Hanzla" name="" id="fname">
+    <input type="reset" value="reset">
+    <label for="week">Enter Date</label>
+    <input type="week" name="" id="week">
+    <button type="submit">Submit The Form</button>
+    <label for="Editors">Editors</label>
+    <select name="Editors" id="Editors">
+        <option value="VS-code">Vs-code</option>
+        <option   value="Sublime">Sublime</option>
+    </select>
+
+    <label for="editors">Best Code Editors</label>
+    <input list="editor" name="editors" id="editors" >
+    <datalist id="editor">
+        <option value="VS-code">Vs-code</option>
+        <option value="Sublime">Sublime</option>
+    </datalist>
+     
+    <label for="ranging">  Range Input </label>
+    <input type="range" name="" id="ranging">
+   </form> 
+   
+</body>
+</html>
